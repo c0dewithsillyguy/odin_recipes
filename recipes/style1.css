@@ -1,31 +1,45 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin: 0px auto; */
+    background-color: rgb(221, 214, 214);
+    box-sizing: border-box;
 }
 
 h1 {
+    background-color: lightskyblue;
     color: blue;
     text-align: center;
 }
 
 img {
+
     display: block;
     margin: auto;
 }
 
 h3 {
+    background-color: lightskyblue;
     color: brown;
     text-decoration: underline;
-    text-align: center
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 6px 0px;
+
 }
 
 ul,
 ol,
+li,
 p {
+    background-color: rgb(190, 172, 12);
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     color: rgb(32, 43, 149);
-    font-size: 15px;
     font-size: 12px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 4px 8px;
 
 }
 
@@ -34,9 +48,11 @@ a:hover {
 
 }
 
+
 a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: rgb(46, 183, 19);
+    margin: 8px 0px;
+    display: block;
+    text-align: center;
 
 }
